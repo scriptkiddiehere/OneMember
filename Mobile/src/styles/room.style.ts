@@ -1,0 +1,75 @@
+import {StyleSheet} from 'react-native';
+import {height, width} from './dimension';
+
+export const roomStyle = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  header: {
+    paddingHorizontal: 20,
+    paddingTop: 20,
+    width: 100,
+  },
+  wrap: {
+    height: height * 0.92,
+    width: width,
+    backgroundColor: '#F7F9FC',
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+    position: 'absolute',
+    bottom: 0,
+    paddingHorizontal: 25,
+    paddingVertical: 20,
+  },
+  firstBox: {
+    flex: 1,
+    borderBottomWidth: 1.5,
+    borderBottomColor: '#E7E8EB',
+    paddingVertical: 6,
+    marginTop: 10,
+    marginBottom: 40,
+  },
+  secondBox: {
+    flex: 0.5,
+    paddingVertical: 10,
+    marginBottom: 50,
+  },
+  boxImg: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 100,
+  },
+  boxMic: {
+    position: 'absolute',
+    bottom: -6,
+    right: -5,
+  },
+  userBox: {
+    width: (width - 120) / 3,
+    height: (width - 120) / 3,
+    backgroundColor: 'grey',
+    borderRadius: 100,
+    position: 'relative',
+    marginBottom: 5,
+    borderWidth: 1.5,
+    borderColor: 'lighgrey',
+    alignItems: 'center',
+    justifyContent: 'center',
+    // marginRight: (width - 120) / 9,
+  },
+  bottom: {
+    position: 'absolute',
+    bottom: 0,
+    height: 70,
+    width: width,
+    paddingHorizontal: 25,
+    backgroundColor: '#fff',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    elevation: 20,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+  },
+});

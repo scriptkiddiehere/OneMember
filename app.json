@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "onemember",
+    "slug": "onemember",
+    "version": "1.0.0",
+    "sdkVersion": "44.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "onemember.example.com"
+    }
+  }
+}
